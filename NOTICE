@@ -1,0 +1,14 @@
+Limite 1B Violetto MLX 4-bit conversion
+
+Original model: paradigma-inc/limite-1b-violetto, by Paradigma.
+Original model and reference implementation: Apache License 2.0.
+Reference implementation: https://github.com/paradigma-inc/limite-violetto
+
+MLX architecture implementation: pierjoe/limite-mlx, version 0.1.0,
+revision b21b7a4fa6ca05cb02082d9f7819b8d1387f2f1a, Apache License 2.0.
+The adapter is an external dependency, not an original implementation by this project.
+
+Derivative changes: MLX conversion, folding of learned attention projection
+scales by the adapter, affine 4-bit/group-64 weight quantization, and acceptance
+of both upstream end-token IDs 151643 and 151645. No fine-tuning was performed.
+The original tokenizer and fixed mathematical chat template are preserved.
