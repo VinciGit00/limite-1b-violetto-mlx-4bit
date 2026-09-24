@@ -1,0 +1,9 @@
+mlx==0.32.2
+mlx-lm==0.31.3
+transformers==5.17.0
+huggingface_hub==1.32.0
+numpy==2.5.3
+matplotlib==3.11.2
+nbconvert==7.17.1
+ipykernel==7.3.0
+limite-mlx @ https://huggingface.co/pierjoe/limite-mlx/resolve/b21b7a4fa6ca05cb02082d9f7819b8d1387f2f1a/limite_mlx-0.1.0-py3-none-any.whl

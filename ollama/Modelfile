@@ -1,0 +1,6 @@
+# Compatibility probe only: Ollama 0.34.2 rejects LimiteForCausalLM.
+# Run from the installed checkpoint directory after runtime support is added.
+FROM .
+PARAMETER temperature 0.6
+PARAMETER top_p 0.95
+PARAMETER num_ctx 8192
