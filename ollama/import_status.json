@@ -1,0 +1,11 @@
+{
+  "status": "blocked",
+  "tested_date": "2026-09-24",
+  "hardware": "Mac mini M4, 16 GiB",
+  "ollama_version": "0.34.2",
+  "attempted_model": "violetto:mlx-4bit",
+  "error": "unsupported MLX architecture: model \"LimiteForCausalLM\"",
+  "checkpoint_storage": "/Volumes/MV work/ollama/imports/limite-1b-violetto-mlx-4bit",
+  "ollama_registry_published": false,
+  "fallback_runtime": "mlx-lm 0.31.3 with limite-mlx 0.1.0"
+}
